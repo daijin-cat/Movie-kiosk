@@ -1,0 +1,51 @@
+/*
+* screens 폴더에 있는 MainPage.js에서 사용하는 css 파일
+*/
+
+/* MainPage.js에서 사용하는 css */
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.MainPage__title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.MainPage__description {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.MainPage__button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+}
+
+.MainPage__button:hover {
+    background-color: #27ae60;
+}
+
+
+
+
+
+
+
+
+
+
+
+
